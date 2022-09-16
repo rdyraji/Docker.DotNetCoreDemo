@@ -10,7 +10,7 @@ resources:
 
 variables:
   # Container registry service connection established during pipeline creation
-  dockerRegistryServiceConnection: 'dc3328c8-feaf-4ec8-bbc7-feeb1dde9a7b'
+  dockerRegistryServiceConnection: 'demoreg12'
   imageRepository: 'rdyrajidockerdotnetcoredemo'
   containerRegistry: 'demoreg12.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/Project/DNCD.Project.Portal/Dockerfile'
